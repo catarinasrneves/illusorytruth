@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'Illusory';
+  src: url('IllusoryTruthGX.ttf') format("truetype-variations");
+  font-weight: 400 900;
+   
+}
+
+
+@font-face {
+  font-family: 'repetition';
+  src: url('RepetitionGX.ttf') format("truetype-variations");
+  font-weight: 400 900;
+}
+
+
+@font-face {
+  font-family: 'hey413';
+  src: url('413GX.ttf') format("truetype-variations");
+  font-weight: 400 900;
+}
+
+
+@font-face {
+  font-family: 'hey361';
+  src: url('3611GX.ttf') format("truetype-variations");
+  font-weight: 400 900;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+p {
+  
+  color : black;
+  text-align: center;
+  position:absolute;
+  text-align:center;
+  font-size:15vw;
+  left:5vw;
+  right:5vw;
+    /*font-variation-settings: "wght" 400;*/
+  transition: font-weight 0.5s ease;
+    
+  
+
+  
+}
+/*
+p:hover{
+    
+    font-variation-settings: "wght" 900;
+}
